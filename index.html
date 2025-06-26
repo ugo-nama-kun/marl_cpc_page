@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="Reward-Independent Messaging for Decentralized Multi-Agent Reinforcement Learning"/>
+  <meta property="og:description" content="In multi-agent reinforcement learning (MARL), effective communication improves agent performance, particularly under partial observability. We propose MARL-CPC, a framework that enables communication among fully decentralized, independent agents without parameter sharing."/>
+  <meta property="og:url" content="https://ugo-nama-kun.github.io/marl_cpc_page/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/images/architectures.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Reward-Independent Messaging for Decentralized Multi-Agent Reinforcement Learning">
+  <meta name="twitter:description" content="In multi-agent reinforcement learning (MARL), effective communication improves agent performance, particularly under partial observability. We propose MARL-CPC, a framework that enables communication among fully decentralized, independent agents without parameter sharing.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/architectures.png">
+  <meta name="twitter:card" content="static/images/architectures.png">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Multi-agent Reinforcement Learning, Deep Reinforcement Learning, Emergent Communication, Predictive Coding">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Reward-Independent Messaging for Decentralized Multi-Agent Reinforcement Learning</title>
+  <link rel="icon" type="image/x-icon" href="static/images/marl.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">Reward-Independent Messaging for <br> Decentralized
+              Multi-Agent Reinforcement Learning</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.co.jp/citations?user=_2YgNzkAAAAJ&hl=ja" target="_blank">Naoto Yoshida</a>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=dPOCLQEAAAAJ&hl=ja" target="_blank">Tadahiro Taniguchi</a>,</span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Kyoto University</span>
+                    <span class="eql-cntrb"><small><br>Preprint. Under review.</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2505.21985" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                   <!--
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+              -->
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2505.21985" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <center>
+            <img src="static/images/messages.png" alt="MY ALT TEXT"  width="50%"/>
+          </center>
+          <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-four-fifths">
+                <div class="content has-text-justified">
+                  <p>
+                    Agent architectures compared in this study. A) Independent agents without communication. B) Message agents, where communication is defined as an
+        extension of action. C) Collective Predictive Coding (CPC)-based agents in which messages function as auxiliary variables for the state inference process (ours). D) Agents whose observations are
+        shared in advance (performance upper bound).
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In multi-agent reinforcement learning (MARL), effective communication improves agent performance, particularly under partial observability. We propose MARL-CPC, a framework that enables communication among fully decentralized, independent agents without parameter sharing. MARL-CPC incorporates a message learning model based on collective predictive coding (CPC) from emergent communication research. Unlike conventional methods that treat messages as part of the action space and assume cooperation, MARL-CPC links messages to state inference, supporting communication in non-cooperative, reward-independent settings. We introduce two algorithms -Bandit-CPC and IPPO-CPC- and evaluate them in non-cooperative MARL tasks. Benchmarks show that both outperform standard message-as-action approaches, establishing effective communication even when messages offer no direct benefit to the sender. These results highlight MARL-CPC's potential for enabling coordination in complex, decentralized environments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="section hero">
+  <div class="item">
+    <!-- Your image here -->
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-4" align="left">Collective Predictive Coding</h2>
+          <div class="content has-text-justified">
+            <center>
+              <img src="static/images/gm.png" alt="MY ALT TEXT"  width="40%" height="30%"/>
+            </center>        
+            <p><br>
+              Collective Predictive Coding (CPC) is an emergent communication model for
+              independent, decentralized agents, originally proposed in the field of emergent
+              communication research. It extends predictive coding theory from
+              computational neuroscience to multi-agent systems.<br>
+              CPC formulates the establishment of communication as inference within a single,
+              large generative model representing a group
+              of agents. This model is decomposed across individuals, yielding an objective
+              function that each agent can optimize via communication. This formulation enables 
+              decentralized Bayesian inference in a distributed manner. <br>
+              This study formulates CPC using variational inference within a deep generative modeling framework.
+              In this context, a joint generative model is constructed by aggregating the observations xi of individual
+              agents (i = 1, 2, . . . , N). This joint model is then decomposed to derive an objective function for the communication modules of individual agents.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero">
+  <div class="item">
+    <!-- Your image here -->
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-4" align="left">Establishing Communication in MARL Based on CPC </h2>
+          <center>
+            <img src="static/images/architecture.png" alt="MY ALT TEXT"  width="60%"/>
+          </center> <br>
+                <div class="content has-text-justified">
+            <p>
+              Overview of the MARL-CPC architecture. The figure is a model with two
+              agents. The components of each agent are represented by filled regions—white and gray,
+              respectively. The central panel corresponds to the CPC module, which forms a pseudojoint agent 
+              and enables message generation and exchange. Based on the messages m
+              and the hidden states z acquired through the CPC module, the agent performs action
+              selection and value estimation. The dashed arrows in the figure indicate paths through
+              which gradients do not propagate during learning. <br>
+              The CPC-based communication module resembles the autoencoder-based
+              method proposed by Lin et al. Furthermore, whereas the
+              effectiveness of message learning based on autoencoders was not theoretically
+              justified in prior work, our CPC-based derivation interprets the joint message as
+              supporting state estimation, thus providing a principled account of inter-agent
+              information sharing.
+            </p>
+            <p>
+              The objective function of both algorithms is expressed as the sum of the RL term and the CPC term.
+               The overall objective function to maximize for agent i of MARL-CPC is expressed as follows:
+            </p>
+            <center>
+              <img src="static/images/loss_marl_cpc.png" alt="MY ALT TEXT"  width="50%"/>
+            </center>
+                  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section  class="section hero">
+  <div class="item">
+    <!-- Your image here -->
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-4" align="left">Experiment 1: Contextual Bandit with Information Sharing</h2>
+          <div class="content has-text-justified">
+            <p>
+              This experiment serves as a proof of concept for communication via CPC in
+              a non-cooperative setting where communication benefits each individual agent.
+              The environment consists of two independently acting agents, 
+              each making a single decision per episode and receiving an
+              individual reward based on the environmental state and their chosen action. Only one agent observes the true state,
+              making the environment non-cooperative: the informed agent can maximize its own
+              reward without relying on the other, and thus has no incentive to communicate.
+              As a result, reward-based learning alone does not promote communication. <br>
+              Agents with the CPC module also attain comparable levels of group welfare,
+              indicating that information sharing is successfully established and utilized
+              by each agent without the need for an explicitly cooperative setting.
+            </p>
+            <center>
+              <img src="static/images/result_bandit_welfare_iqm_fine.png" alt="MY ALT TEXT"  width="60%"/>
+            </center>
+                  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section  class="section hero">
+  <div class="item">
+    <!-- Your image here -->
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-4" align="left">Experiment 2: Information Sharing without Rewards</h2>
+          <div class="content has-text-justified">
+            <p>
+              This environment evaluates communication in a non-cooperative setting
+              with asymmetric information access. It has two agents:
+              Agent-A, who remains stationary and
+              receives no reward, and Agent-B, who
+              navigates a 4 × 4 grid and can earn
+              +1 by selecting the DIG action on cells
+              with buried rewards. Agent-B
+              cannot observe the reward locations (red cell),
+              while Agent-A can, but has no incentive to share this information, 
+              as it receives zero reward regardless of its actions. <br>
+              The shared condition confirms that task performance improves with information sharing.
+              Compared to the independent and message baselines, the cpc
+              condition shows significant gains across both metrics.
+            </p>
+            <center>
+              <p>
+              <div style="width: 100%;">
+                <img src="static/images/result_observer2_fine.png" alt="MY ALT TEXT"  width="80%"/>
+              <div>
+              </p>
+              <div style="width: 100%;">
+                <div style="float: left; width: 50%;">
+                  <img src="static/images/observer_cpc.gif" alt="MY ALT TEXT" width="95%">
+                  <figcaption>Behavior of IPPO-CPC agents</figcaption>
+                </div>
+                <div style="float: left; width: 50%;">
+                  <img src="static/images/observer_independent.gif" alt="MY ALT TEXT" width="95%">  
+                  <figcaption>Behavior of IPPO (no-cummunication)</figcaption>
+                </div>
+              </div>
+              </figure>
+              </center>
+
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section  class="section hero">
+  <div class="item">
+    <!-- Your image here -->
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-4" align="left">Experiment 3: Cooperative Condition</h2>
+          <div class="content has-text-justified">
+            <p>
+              We examined communication learning under cooperative conditions by
+              modifying the reward structure in the
+              contextual bandit environment. Both
+              agents now receive a reward
+              only if they select the correct answer simultaneously; otherwise, they
+              receive a punishment.<br>
+              As expected, the cpc and shared conditions achieve
+              the highest rewards, while no-comm fails to learn cooperative behavior. 
+              The message condition, previously shown to enable communication in cooperative
+              settings, also performs well, but learns more slowly and achieves lower final performance than cpc. 
+              <br>
+              This likely reflects a fundamental difference: CPC integrates
+              communication into representation learning as inference of global state, whereas
+              the message-as-action paradigm treats communication as a learned action. 
+              <br>
+              <center>
+                <img src="static/images/result_cooperative_fine.png" alt="MY ALT TEXT"  width="60%"/>
+              </center>
+                      </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End image carousel -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{
+        yoshida2025reward,
+        title={Reward-Independent Messaging for Decentralized Multi-Agent Reinforcement Learning},
+        author={Yoshida, Naoto and Taniguchi, Tadahiro},
+        journal={arXiv preprint arXiv:2505.21985},
+        year={2025}
+    }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
